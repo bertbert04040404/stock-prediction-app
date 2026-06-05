@@ -3,10 +3,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import yfinance as yf
-from keras.models import Sequential
-from keras.layers import LSTM, Dense, Dropout
-from keras.optimizers import Adam
 import optuna
+
+# 修正後的 TensorFlow / Keras 引入方式
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.optimizers import Adam
 
 # 設定網頁標題
 st.set_page_config(page_title="AI 股價預測系統", layout="wide")
