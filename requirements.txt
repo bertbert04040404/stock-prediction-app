@@ -1,7 +1,4 @@
 streamlit
-pandas
-numpy
-matplotlib
 yfinance
 optuna
 tensorflow-cpu
