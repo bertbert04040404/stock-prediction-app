@@ -4,4 +4,4 @@ numpy
 matplotlib
 yfinance
 optuna
-tensorflow
+tensorflow-cpu
